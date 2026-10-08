@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+history.log
+recordings/
+build/
+dist/
+*.spec
+*.tmp
+Murmur*.zip

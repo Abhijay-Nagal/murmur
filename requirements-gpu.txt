@@ -1,0 +1,4 @@
+# NVIDIA CUDA libraries for GPU speech recognition. install.bat adds these only on PCs
+# with an NVIDIA graphics card, so no separate CUDA install is needed.
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*

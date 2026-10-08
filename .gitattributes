@@ -1,0 +1,12 @@
+* text=auto
+*.bat text eol=crlf
+*.png binary
+*.ico binary
+*.ttf binary
+
+# Kept out of the Murmur.zip release download (git archive)
+tests export-ignore
+docs export-ignore
+.github export-ignore
+.gitattributes export-ignore
+requirements-dev.txt export-ignore

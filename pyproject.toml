@@ -1,0 +1,16 @@
+[project]
+name = "murmur-dictation"
+version = "1.0.0"
+description = "Free, offline voice dictation for Windows. Hold a hotkey, speak, and text appears anywhere."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Abhijay Nagal" }]
+requires-python = ">=3.11"
+
+[project.urls]
+Homepage = "https://github.com/Abhijay-Nagal/murmur"
+Issues = "https://github.com/Abhijay-Nagal/murmur/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
